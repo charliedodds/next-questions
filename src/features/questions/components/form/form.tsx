@@ -50,7 +50,7 @@ const Form = () => {
 
   return (
     <form>
-      <section className="relative h-20">
+      <section className="relative h-48">
         {QUESTIONS.map((question) => (
           <Question
             key={question.id}

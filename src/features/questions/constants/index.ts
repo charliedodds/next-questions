@@ -4,27 +4,29 @@ export const QUESTIONS: Question[] = [
   {
     id: '1',
     name: 'q1',
-    label: 'Question 1',
+    label: 'Have you been to Genovia in the last 3 months?',
   },
   {
     id: '2',
     name: 'q2',
-    label: 'Question 2',
+    label: 'Did you ingest a Genovian Pear?',
   },
   {
     id: '3',
     name: 'q3',
-    label: 'Question 3',
+    label:
+      'Did you suffer any symptoms of allergic reactions? (Rash, swelling, vomiting etc.)',
   },
   {
     id: '4',
     name: 'q4',
-    label: 'Question 4',
+    label:
+      'Are you currently taking any medication (including over the counter, prescription or recreational drugs)?',
   },
   {
     id: '5',
     name: 'q5',
-    label: 'Question 5',
+    label: 'Are you aged over 18?',
   },
 ]
 
