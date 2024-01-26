@@ -76,7 +76,11 @@ const Form = () => {
             type="button"
             onClick={handleNextClick}
           >
-            {step === 0 ? 'Start' : step === MAX_STEP ? 'Submit' : 'Next'}
+            {step === 0
+              ? 'Start Consultation'
+              : step === MAX_STEP
+              ? 'Submit'
+              : 'Next'}
           </button>
         }
       </section>
